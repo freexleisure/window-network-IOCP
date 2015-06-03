@@ -12,13 +12,14 @@
 #include <windows.h>
 
 
-#include <atltrace.h>
+//#include <atltrace.h>
 #include <WinSock2.h>
 
 
 #pragma comment(lib, "Ws2_32.lib")
 
 
-#define NETTRACE  ATLTRACE
+#define NETTRACE
 
 #include "SocketOpt.h"
+#include <string>
